@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Konversi Suhu</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Website Konversi Suhu</h1>
+    </div>
+
+    <hr class="divider">
+
+    <div class="content">
+      <h2>Masukkan suhu derajat <span class="unit">Celsius (°C)</span> ke kotak di bawah, lalu klik tombol Konversi
+        untuk mendapatkan hasil konversi dalam bentuk <span id="conversion" class="unit">Fahrenheit (°F)</span>.</h2>
+
+      <div class="input-container">
+        <label for="temperature">Input suhu:</label>
+        <input type="number" id="temperature" placeholder="Masukkan suhu dalam Celsius" required>
+      </div>
+
+      <div class="button-container">
+        <button id="convertBtn" class="btn" title="Konversi">Konversi</button>
+        <button id="resetBtn" class="btn" title="Reset">Reset</button>
+        <button id="reverseBtn" class="btn" title="Reserve">Reserve</button>
+      </div>
+
+      <div class="result-container">
+        <h3>Hasil konversi:</h3>
+        <div id="result" class="result"></div>
+      </div>
+
+      <div class="calculation-container">
+        <h3>Cara Kalkulasi:</h3>
+        <div id="calculation" class="calculation"></div>
+      </div>
+
+      <div class="link-container">
+        <a href="#" id="reverseLink" title="Fahrenheit (°F) ke Celsius (°C)">Fahrenheit (°F) ke Celsius (°C)</a>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="footer">
+      <footer>
+        <p><i>Mini Project</i> <b>Website Konversi Suhu</b> ini saya buat sendiri sebagai syarat kelulusan <a href="https://revou.co/fundamental-course-software-engineering" rel="nofollow" target="_blank" title="Fundamental Course Software Engineering RevoU">Course Software Engineering RevoU</a>
+          tanggal 23 Juni 2023.</p>
+        <p>Calon Programmer: <a href="https://id.linkedin.com/in/andhi-setya-hermawan" rel="nofollow" title="Andhi Setya Hermawan">Andhi Setya Hermawan</a>.</p>
+      </footer>
+    </div>
+  </div>
+
+  <script src="js/script.js" type="text/javascript"></script>
+</body>
+
+</html>
